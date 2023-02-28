@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: whitesmoke
+}
+img {
+    height: 80px;
+    margin-top: 40px;
+}
+.cards {
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 168px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  
+}
+
+.btn:hover {
+    background: #513282;
+}
+
+
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+}
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.cartCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.btn-buy{
+    
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    margin-bottom: 20px;
+
+}
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.total{
+    display: inline-block;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    /* float: right; */
+    margin-top: 2rem;
+}
