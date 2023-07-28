@@ -8,7 +8,7 @@ import Details from './components/Details';
 import './components/App.css'
 
 function App() {
-
+// like
   return (
     <div className='App'>
 
